@@ -14,9 +14,10 @@
     border-width: 5px;
     border-color: rgb(38, 30, 90);
 }
-.card-header {
+.card-header:first-child {
     background: rgb(38, 30, 90);
     color: white;
+    border-radius: 0;
 }
 
 img {
@@ -27,6 +28,14 @@ img {
 
 .form{
     padding: 10px;
-    
-    
+       
 }
+
+.card-return{
+    width: 66%;
+    margin-left: 200px;
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(38, 30, 90);
+
+
