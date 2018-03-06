@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
     <title>NYT Search</title>
 </head>
 <body>
@@ -15,8 +17,12 @@
             
         </div>
     </div>
-
-    <form class ="form">
+    <div class="card">
+    <div class="card-header">
+        Search Parameters
+    </div>
+    <div class="card-body">
+<form class ="form">
         <div class="form-group">
             <label for="inputSearchTerm">Search</label>
             <input type="search" class="form-control" id="inputSearchTerm" aria-describedby="search" placeholder="Enter Search Term">
@@ -39,6 +45,14 @@
         <button type="submit" class="btn btn-primary">Submit</button>
         <button type="submit" class="btn btn-secondary">Clear Results</button>
     </form>
+    </div>
+    
+
+
+    <div id="return-field">
+        
+    </div>
+
         
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </body>
