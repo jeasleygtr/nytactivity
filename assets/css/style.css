@@ -1,20 +1,32 @@
 .jumbotron {
     width: 66%;
+    height: 200px;
+    font-family: 'Playfair Display', serif;
     background: rgb(38, 30, 90);
     color: white;
     margin-left: 200px;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-    margin-right: 10px;
-}
-
-.form{
+.card{
     width: 66%;
     margin-left: 200px;
     border: solid;
     border-width: 5px;
     border-color: rgb(38, 30, 90);
+}
+.card-header {
+    background: rgb(38, 30, 90);
+    color: white;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.form{
+    padding: 10px;
+    
+    
 }
