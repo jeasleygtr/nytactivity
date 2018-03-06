@@ -22,32 +22,37 @@
         Search Parameters
     </div>
     <div class="card-body">
-        <form class ="form">
-            <div class="form-group">
-                <label for="inputSearchTerm">Search</label>
-                <input type="search" class="form-control" id="inputSearchTerm" aria-describedby="search" placeholder="Enter Search Term">
-            </div>
-            <div class="form-group">
-                <label for="recordRetrieval">Number of Records to Retrieve</label>
-                <input type="recordNumber" class="form-control" id="inputSearchTerm" placeholder="Number of Records Desired">
-            </div>
-            <div class="form-group">
-                <label for="startYear">Start Year (Optional)</label>
-                <input type="search" class="form-control" id="inputSearchTerm" aria-describedby="search" placeholder="Start Year">
-            </div>
-            <div class="form-group">
-                <label for="endYear">End Year (Optional)</label>
-                <input type="recordNumber" class="form-control" id="inputSearchTerm" placeholder="End Year">
-            </div>
-            <button type="submit" class="btn btn-secondary">Submit</button>
-            <button type="clear-results" class="btn btn-secondary">Clear Results</button>
-        </form>
+<form class ="form">
+        <div class="form-group">
+            <label for="inputSearchTerm">Search</label>
+            <input type="search" class="form-control" id="inputSearchTerm" aria-describedby="search" placeholder="Enter Search Term">
+            
+        </div>
+        <div class="form-group">
+            <label for="recordRetrieval">Number of Records to Retrieve</label>
+            <input type="recordNumber" class="form-control" id="recordRetrieval" placeholder="records">
+        </div>
+        <div class="form-group">
+            <label for="startYear">Start Year (Optional)</label>
+            <input type="search" class="form-control" id="startYear" aria-describedby="search" placeholder="Enter Search Term">
+            
+        </div>
+        <div class="form-group">
+            <label for="endYear">End Year (Optional)</label>
+            <input type="recordNumber" class="form-control" id="endYear" placeholder="records">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-secondary">Clear Results</button>
+    </form>
     </div>
     
+
 
     <div id="return-field">
         
     </div>
+
         
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </body>
