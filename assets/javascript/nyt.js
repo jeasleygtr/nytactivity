@@ -7,9 +7,8 @@ $('.btn-primary').on('click', function(){
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
     var q = $("#inputSearchTerm").val().trim();
     var begin_date = $('#startYear').val().trim() + "0101";
-    var end_date = $('#endYear').val().trim() + "0101";
+    var end_date = $('#endYear').val().trim() + "1231";
     // need variable for amount of records to retrieve
-    // inn
     url += '?' + $.param({
     'api-key': "3b432ace2fdd4dee8d19548431589a02",
     'q': q,
@@ -22,7 +21,7 @@ $('.btn-primary').on('click', function(){
     }).then(function(results){
         console.log(results.response.docs[0].headline.main);
         // for loop to display x number of records
-
+        // output search results
     });
 });
 
